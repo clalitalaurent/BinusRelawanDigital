@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="brdstyle.css">
+</head>
+<body>
+    <script src="brdscript.js"></script>
+    <div class="container">
+        <div class="title">BINUS RELAWAN DIGITAL</div>
+        <div class="form">
+            <form action="#" method="POST" onsubmit="validation()">
+                <div class="nama">
+                    <input class="text" type="text" id="nama" name="nama" placeholder="Nama">
+                </div>
+                <br>
+                <div class="alamat">
+                    <textarea name="alamat" id="alamat" placeholder="Alamat" style="height: 200px;"></textarea>
+                </div>
+                <br>
+                <div class="email">
+                    <input class="text" type="email" id="email" name="email" placeholder="Email">
+                </div>
+                <br>
+                <div class="nomorhp">
+                    <input class="text" type="text" id="nomorhp" name="nomorhp" placeholder="No. Handphone">
+                </div>
+                <br>
+                <div class="droplist">
+                    <select name="droplist" id="droplist">
+                        <option value="mahasiswa">Mahasiswa</option>
+                        <option value="dosen">Dosen</option>
+                        <option value="staff">Staff Binus</option>
+                    </select>
+                </div>
+                <div class="socmed">
+                    <p>Social Media yang akan digunakan</p>
+                    <div class="fotosocmed">
+                        <table>
+                            <tr>
+                                <td class="medsos" onclick="alert('You choosed Facebook!')"><img src="fb.png" alt="" width="30px"></td>
+                                <td>  </td>
+                                <td>Facebook</td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <td class="medsos" onclick="alert('You choosed Instagram!')"><img src="ig.png" alt="" width="30px"></td>
+                                <td>  </td>
+                                <td>Instagram</td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <td class="medsos" onclick="alert('You choosed Youtube!')"><img src="youtube.png" alt="" width="30px" style="border-radius: 5px;"></td>
+                                <td>  </td>
+                                <td>Youtube</td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <td class="medsos" onclick="alert('You choosed Blogger!')"><img src="blogger.png" alt="" width="30px"></td>
+                                <td>  </td>
+                                <td>Blogger</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <input class="text" type="text" type="text" id="socmed" name="socmed" placeholder="Nama Social Media Anda">
+                </div>
+                <br>
+                <input type="button" class="button" name="button" value="SAYA SIAP MENJADI BINUS RELAWAN DIGITAL">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
